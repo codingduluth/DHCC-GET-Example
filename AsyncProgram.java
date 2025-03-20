@@ -4,6 +4,8 @@ THIS IS THE ASYNCHRONOUS EXAMPLE
 The following function will get the API request in the background 
 While it adds x + y
 
+
+
 */
 
 import java.io.BufferedReader;  // Import BufferedReader for reading input streams.
@@ -12,7 +14,7 @@ import java.net.HttpURLConnection;  // Import HttpURLConnection to make an HTTP 
 import java.net.URL;  // Import URL to represent the URL of the API.
 import java.util.concurrent.CompletableFuture;  // Import CompletableFuture to handle asynchronous tasks.
 
-public class MyProgram {
+public class AsyncProgram {
     public static void main(String[] args) {
         // Define the API URL to fetch weather data for a specific latitude and longitude.
         String apiUrl = "https://api.open-meteo.com/v1/forecast?latitude=34.0029&longitude=-84.1446&current_weather=true&temperature_unit=fahrenheit";
